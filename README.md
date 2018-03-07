@@ -15,7 +15,7 @@ The **Rated Companies** utility displays a table of companies in descending orde
 
 The table on the right hand side of the widgets will display results based on user-defined inputs. The dropdown above the table can be used to display more results on the page. The page buttons below the table can be used to navigate through multiple pages of results.
 
-<img src="table.png" width="75%" style="display: block; margin: 0 auto; max-width: 530px;">
+<img src="www/table.png" width="75%" style="display: block; margin: 0 auto; max-width: 530px;">
 
 ***
 
@@ -26,7 +26,7 @@ The **Cacao Visualizations** utility displays a bar graph containing the top ten
 
 The container on the right-hand side of the widget will display a graph with the top ten rated values of the category that was selected. For example, `Cocoa Percent` is selected from the dropdown by default. The displayed graph will show the top ten most popular cocoa percentages based on their collective average ratings.
 
-<img src="graph.png" width="75%" style="display: block; margin: 0 auto; max-width:500px;">
+<img src="www/graph.png" width="75%" style="display: block; margin: 0 auto; max-width:500px;">
 
 ***
 ### Authors
