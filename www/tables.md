@@ -1,0 +1,4 @@
+Using the widgets above, filter the data using your ideal preferences to find the top rated cacao companies that suit your needs! The slider can be used to specify an optimal cocoa percentage range, and the two drop downs can be used to specify distinct origin and company locations. All data is sorted in descending order by rating.
+
+#### Example
+By default, the cocoa percentage slider is set to `60-80`. The table to the right will only show relevant data with cocoa percentage values in that range. If `Brazil` is selected for the preferred bean origin and `France` is selected for the preferred company location, the table will narrow the results down even further to relevant data that pertains to the selected options. By default, the bean origin and country location drop-downs are set to `No Preference` and `Any` respectively.

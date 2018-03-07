@@ -1,0 +1,2 @@
+#### Cacao Visualizations
+From the dropdown menu, select a category to filter top ratings by. On the right hand side, a bar graph will appear containing the top ten rated values of the category you selected based on the collective average ratings for that specific category. For example, choosing the `Cocoa Percent` category will display a bar graph with the top ten popular cocoa percentages based on the average ratings of the cacao containing those specific cocoa percentages.

@@ -1,0 +1,232 @@
+/*
+Shiny Theme: Cocoa
+Author: Team SPAM
+License: MIT
+
+Animations made possible by @dragoeco
+*/
+
+
+@import url('//fonts.googleapis.com/css?family=Lato:100|Roboto:300');
+
+/* ANIMATIONS */
+@-webkit-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-moz-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-o-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-ms-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+
+/* MAIN */
+h1 {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #9c886f;
+  background-image: url('drip.png');
+  background-position: left top;
+  background-repeat: repeat-x;
+}
+
+.well {
+  font-family: 'Roboto', sans-serif;
+  background-color: #47261a;
+  color: #ddc08d;
+  border-radius: 10px;
+  border: none;
+  padding-bottom: 0px;
+}
+
+.cntr-head {
+  text-align: center;
+}
+
+.cntr {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.team {
+  display: inline-block;
+  padding-top: 25px;
+  color: #ddc08d;
+  text-align: center;
+}
+
+.shoutout-container {
+  bottom: 50;
+  text-align: center;
+}
+
+::selection {
+  background: #ddc08d
+}
+
+::-moz-selection {
+  background: #ddc08d
+}
+
+[class|='irs-bar'] {
+  background: #ddc08d;
+  border: #ddc08d
+}
+
+[class|='irs-max'] {
+  background: #302013;
+  border: #302013;
+  color: #fff;
+}
+
+[class|='irs-min'] {
+  background: #302013;
+  border: #302013;
+  color: #fff;
+}
+
+[class|='irs-from'] {
+  background: #302013;
+  border: #302013;
+  color: #fff;
+}
+
+[class|='irs-to'] {
+  background: #302013;
+  border: #302013;
+  color: #fff;
+}
+
+[class|='irs-grid'] {
+  color: #fff;
+}
+
+[class|='control-label'] {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.tabbable > .nav > li > a {
+  font-family: "Roboto", sans-serif;
+  background-color: #47261a;
+  color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: none;
+  margin-bottom: 1px;
+  line-height: 1px;
+}
+
+.tabbable > .nav > li[class=active] > a {
+  background-color: #71482f;
+  color: #fff;
+  border: none;
+}
+
+.tabbable > .nav > li > a:hover > i{
+  display: inline-block;
+  position: relative;
+  -moz-animation: bounce 0.5s infinite linear;
+  -o-animation: bounce 0.5s infinite linear;
+  -webkit-animation: bounce 0.5s infinite linear;
+  animation: bounce 0.5s infinite linear;
+  colr:000;
+}
+
+.help-block {
+  color: #fff;
+}
+
+.tab-content{
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border: none;
+}
+
+.table {
+
+}
+
+.nav {
+  border: none;
+}
+
+.dataTables_filter, .dataTables_info {
+  display: none;
+}
+
+input[type='text'] {
+  display: none;
+}
+
+.well code {
+  background-color: #302013;
+  color: #FAEBD7;
+}
+
+.well button {
+
+  background-color: #71482f;
+  color: #fff;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.well button:hover {
+  background-color: #71482f;
+  color: #fff;
+  border: none;
+}
+
+.well button:active {
+  background-color: #71482f;
+  color: #fff;
+  border: none;
+}
+
+.well button:focus {
+  background-color: #71482f;
+  color: #fff;
+  border: none;
+}
+
+
+* {
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
